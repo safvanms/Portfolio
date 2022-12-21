@@ -1,0 +1,62 @@
+.footer {
+     display: flex;
+     align-items: center;
+     margin: -0.5rem -3.5rem;
+     position: relative;
+     margin-top: -7rem;
+    
+}
+
+.f-content {
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+width: 100%;
+margin-top: 6rem;
+gap:2rem;
+color: rgb(76, 76, 76);
+}
+
+.f-content >:nth-child(1){
+     margin-top: 40px;
+     
+}
+
+.f-icon {
+     display: flex;
+     gap: 2rem;
+}
+
+.f-btns{
+     color: gray;
+     font-size: 30px;
+}
+
+@media screen and (max-width: 480px) {
+     .f-content >:nth-child(1){
+          margin-top: -40px;
+          font-size: 18px;
+          margin-bottom: -30px;
+     }
+     .f-icon {
+          display: flex;
+          gap:15px;
+     }
+     .f-content {
+          position: absolute;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          width: 100%;
+          margin-top: 6rem;
+          gap:2rem;
+          color: gray;
+          }
+          .f-icon>* {
+          size: 10px;
+          }
+
+}
