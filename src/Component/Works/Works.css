@@ -1,7 +1,7 @@
 .works {
-  padding: 0 3rem 0 3rem;
+  padding: 0 5rem 0 5rem;
   display: flex;
-  height: 90vh;
+  height: 140vh;
   margin-top: 4rem;
 }
 
@@ -100,7 +100,7 @@ z-index: -1;
 @media screen and (max-width: 480px) {
 .works{
   flex-direction: column;
-  height: 55rem;
+  height: 45rem;
   padding: 0;
   gap: 5rem;
 }

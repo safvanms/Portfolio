@@ -9,13 +9,13 @@ function Navbar() {
   return (
     <div className="n-wrapper">
       <div className="n-left">
-        <div className="n-name">MDSAFVAN</div>
-        <div className="dark-button">
-          <Toggle />
-        </div>
+        <div className="n-name">mdsafvan</div>
       </div>   
 
       <div className="n-right">
+      <div className="dark-button">
+          <Toggle />
+        </div>
         <div className="n-list">
           <ul>
             <Link spy={true} to='Navbar' smooth={true} activeClass={'activeClass'}>
@@ -26,6 +26,9 @@ function Navbar() {
             </Link>
             <Link spy={true} to='works' smooth={true} >
             <li>Works</li>
+            </Link>
+            <Link spy={true} to='experience' smooth={true} >
+            <li>Experience</li>
             </Link>
             <Link spy={true} to='Portfolio' smooth={true} >
             <li>Portfolio</li>
