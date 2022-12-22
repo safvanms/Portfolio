@@ -41,6 +41,10 @@
      top: 1rem;
      left: 8rem;
  }
+
+ .btns {
+    width: 120px;
+ }
  
  @media screen and (max-width: 480px) {
      .contact-form{
@@ -51,6 +55,12 @@
      }
      .c-right .user{
          width: 16rem;
+     }
+
+     .awesome{
+        display: flex;
+        justify-content: center;
+        align-items: center;
      }
  
  }   

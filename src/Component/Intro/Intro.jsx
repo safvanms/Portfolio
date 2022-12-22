@@ -11,6 +11,8 @@ import Crown from '../../img/crown.png';
 import glassesimoji from '../../img/glassesimoji.png';
 import FloatingDiv from '../FloatingDiv/FloatingDiv';
 import { motion } from "framer-motion";
+import {Link} from 'react-scroll';
+
 
 
 function Intro() {
@@ -29,8 +31,9 @@ function Intro() {
             designing and development , producing the Quality work
           </span>
         </div>
-
+        <Link spy={true} to='contact' smooth={true} >
         <button className="button i-button">Hire me</button>
+        </Link>
         <div className="i-icons">
           <a href='https://github.com/safvanms'><img className='imgs' src={Github} alt="icon"  /></a>
           <a href='https://www.linkedin.com/in/muhammed-safvan-p-118a83225/'> <img className='imgs'  src={In} alt="icon" /></a>

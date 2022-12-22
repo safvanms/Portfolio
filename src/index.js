@@ -11,7 +11,7 @@ function Index() {
       <div>
          <ThemeProvider>
          <App/>
-         </ThemeProvider>,
+         </ThemeProvider>
       </div>
    )
 };

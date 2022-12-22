@@ -116,5 +116,13 @@ z-index: -1;
 .w-backCircle{
   left: 8rem !important;
 }
+.awesome{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.awesome>:nth-child(3){
+  font-size: 18px;
+}
 
 }

@@ -6,7 +6,7 @@ import Js from '../../img/js.png'
 import Rjs from '../../img/react.png'
 import Njs from '../../img/njs.png'
 import { motion } from "framer-motion";
-
+import {Link} from 'react-scroll';
 
 
 
@@ -29,7 +29,9 @@ export default function Works() {
           <br />
           Modern Website structures
         </span>
+        <Link spy={true} to='contact' smooth={true} >
         <button className="button s-button">Hire me</button>
+        </Link>
         <div className="blur s-blur1" style={{ background: '#ABF1ff94' }}></div>
       </div>
 

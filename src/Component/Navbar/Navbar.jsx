@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <div className="n-wrapper">
       <div className="n-left">
-        <div className="n-name">Safvan</div>
+        <div className="n-name">MDSAFVAN</div>
         <div className="dark-button">
           <Toggle />
         </div>

@@ -40,7 +40,7 @@ export default function Contact() {
                <input type='text' name='user-name' className='user' placeholder='Name' required/>
                <input type='email' name='user-email' className='user' placeholder='Email' required/>
                <textarea name='message' className='user' placeholder='Message' required/>
-               <input type='submit' value='Send' className='button' />
+               <input type='submit' value='Send' className='button btns' />
                <span>{done && "Thanks for contacting me :)"}</span>
                <div 
                className="blur c-blur1"
