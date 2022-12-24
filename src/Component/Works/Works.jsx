@@ -22,12 +22,12 @@ export default function Works() {
         <span>Tools & Libraries </span>
         <span>
           Makes more Beautiful User Interfaces with React
+          The most popular Library of Js.
           <br />
-          The most popular Library of Javascript
+          Different varieties of Styles.
           <br />
-          Different varieties of Styles
-          <br />
-          Modern Website structures
+          Implementing design on mobile websites.
+          Creating tools that improve site interaction regardless of the browser.
         </span>
         <Link spy={true} to='contact' smooth={true} >
         <button className="button s-button">Hire me</button>

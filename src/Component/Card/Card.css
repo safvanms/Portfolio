@@ -17,7 +17,7 @@
 
 .card span:nth-last-of-type(2) {
   color: var(--gray);
-  font-size: 16px;
+  font-size: 16px; 
 }
 
 .card > img {

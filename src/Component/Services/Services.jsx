@@ -17,9 +17,14 @@ export default function Services() {
         <span>My Awesome</span>
         <span>Services</span>
         <span>
-          Makes more Beautiful User Interfaces with React
+          Makes more Beautiful User Interfaces with React,
+           The most popular Library of Js .
           <br />
-          The most popular Library of the Javascript
+          Using HTML, JavaScript and CSS to bring concepts to life.
+           Developing and maintaining the user interface.
+          <br />
+          Implementing design on mobile websites.
+           Creating tools that improve site interaction regardless of the browser.
         </span>
         <a href={CV} download>
           <button className="button s-button">Download CV</button>

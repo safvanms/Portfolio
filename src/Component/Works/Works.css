@@ -1,8 +1,12 @@
 .works {
-  padding: 0 5rem 0 5rem;
+  padding: 0 3rem 0 5rem;
   display: flex;
   height: 140vh;
   margin-top: 4rem;
+}
+
+.awesome >:nth-child(3){
+  font-size: 18px;
 }
 
 .imgs {
@@ -122,7 +126,19 @@ z-index: -1;
   align-items: center;
 }
 .awesome>:nth-child(3){
-  font-size: 18px;
+  font-size: 16px;
 }
 
+}
+
+@media screen and (max-width: 400px) {
+  .works{
+    flex-direction: column;
+    height: 48rem;
+    padding: 0;
+    gap: 5rem;
+  }
+  .awesome>:nth-child(3){
+    font-size: 18px;
+  }
 }
