@@ -1,8 +1,8 @@
 .works {
   padding: 0 3rem 0 5rem;
   display: flex;
-  height: 140vh;
-  margin-top: 4rem;
+  height: 130vh;
+  margin-top: 5rem;
 }
 
 .awesome >:nth-child(3){

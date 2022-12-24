@@ -1,15 +1,24 @@
 import React from 'react';
 import '../Navbar/Navbar.css';
 import Toggle from '../Toggle/Toggle';
+import Logo from '../../img/logo.png';
+import LogoLight from '../../img/logo-l.png';
 import {Link} from 'react-scroll';
-
+import { themeContext } from '../../Context'
+import { useContext } from 'react'
 
 
 function Navbar() {
+
+  const theme = useContext(themeContext)
+  const darkMode = theme.state.darkMode
+
   return (
     <div className="n-wrapper">
       <div className="n-left">
-        <div className="n-name">mdsafvan</div>
+        <div className="n-name">
+          {darkMode ? <img src={LogoLight} alt="" /> : <img src={Logo} alt="" /> }
+        </div>
       </div>   
 
       <div className="n-right">

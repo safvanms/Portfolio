@@ -29,7 +29,7 @@ export default function Services() {
         <a href={CV} download>
           <button className="button s-button">Download CV</button>
         </a>
-        <div className="blur s-blur1" style={{ background: '#ABF1ff94' }}></div>
+        <div className="blur s-blur1" style={{ background: '#F5F4F0' }}></div>
       </div>
       {/* right side */}
       <div className="cards">

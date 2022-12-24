@@ -110,16 +110,28 @@
   filter: blur(72px);
 }
 
+
+
+@media screen and (min-width: 481px) and (max-width: 1400px)  {
+  .in-blur{
+  display: none;
+  }
+
+}
+
+
 @media screen and (max-width: 480px) {
   .intro {
     flex-direction: column;
     height: 60rem;
     gap: 7rem;
     padding: 15px;
+    margin-top:60px ;
   }
   .i-right {
     transform: scale(0.8);
     left: -3rem;
+    margin-top: -50px;
   }
   .i-right blur {
     display: none;
@@ -133,4 +145,23 @@
     margin-bottom: 15px;
     font-weight: bolder;
   }
+  .i-name > :nth-child(3) {
+    color: var(--grey);
+    font-weight: 100;
+    font-size: 17px;
+    margin-top: 15px;
+  }
+  .i-blur2{
+    display: block;
+      top: 100px;
+      left: 250px;
+ 
+  }
+  .i-blur1{
+    display: block;
+ left: -300px;
+ top: 200px;
+  }
+
+
 }

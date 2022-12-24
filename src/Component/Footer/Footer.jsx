@@ -11,7 +11,6 @@ export default function Footer() {
     <div className="footer">
       <img src={Wave} alt="" style={{ width: '100%' }} />
       <div className="f-content">
-        <span>muhammedsafvan1ms@gmail.com</span>
         <div className="f-icon">
           <a href="https://www.instagram.com/mdsafvan1">
             <GrInstagram className='f-btns' size='1.5rem'  />
@@ -26,6 +25,7 @@ export default function Footer() {
             <AiFillGithub className='f-btns'  />
           </a>
         </div>
+      <span className='footer-copyright'>©2022 Muhammed Safvan, All right reserved.</span>
       </div>
     </div>
   )
