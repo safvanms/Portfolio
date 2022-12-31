@@ -13,9 +13,9 @@ export default function Footer() {
       <div className="f-content">
         <div className="f-icon">
           <a href="https://www.instagram.com/mdsafvan1">
-            <GrInstagram className='f-btns' size='1.5rem'  />
+            <GrInstagram className='f-btns-insta'   />
           </a>
-          <a href="https://wa.me/9175588642666">
+          <a href="https://wa.me/917558864266">
             <FaWhatsapp className='f-btns'  />
           </a>
           <a href="https://www.linkedin.com/in/muhammed-safvan-p-118a83225/">

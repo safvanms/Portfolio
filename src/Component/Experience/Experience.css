@@ -45,8 +45,8 @@
      color: var(--yellow);
 }
 
-@media screen and (max-width: 480px) {
-.experience{
+@media screen and (min-width: 301px) and (max-width: 480px) {
+  .experience{
   gap: 1.5rem !important;
   margin-top:400px;
 }
@@ -57,3 +57,30 @@
   font-size: 18px;
 }
 }
+
+@media screen and (min-width: 481px) and (max-width: 700px) {
+  .experience{
+    gap: 1.5rem !important;
+    margin-top:-200px;
+  }
+  .achievement span:nth-of-type(2){
+    font-size: 18px;
+  }
+  .achievement span:nth-of-type(1){
+    font-size: 18px;
+  }
+  }
+
+  @media screen and (min-width: 701px) and (max-width: 950px) {
+    .experience{
+      gap: 1.5rem !important;
+      margin-top:-450px;
+    }
+    .achievement span:nth-of-type(2){
+      font-size: 18px;
+    }
+    .achievement span:nth-of-type(1){
+      font-size: 18px;
+    }
+
+  }
