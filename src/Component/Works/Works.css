@@ -3,6 +3,7 @@
   display: flex;
   height: 130vh;
   margin-top: 5rem;
+  gap: 100px;
 }
 
 .awesome >:nth-child(3){
@@ -15,6 +16,7 @@
 
 .w-right {
   position: relative;
+  /* margin-left: 80px; */
 }
 
 .w-mainCircle {
