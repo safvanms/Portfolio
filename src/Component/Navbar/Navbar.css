@@ -41,7 +41,7 @@
 
 .n-list > ul > li:hover {
   cursor: pointer;
-  color: #666666;
+  color: #666666; 
 }
 
 .n-button {
@@ -64,7 +64,7 @@
     margin-right: 30px;
   }
   .dark-button {
-    margin-bottom: 17px;
+    margin-bottom: 27px;
 margin-right: 20px;
   }
   .n-wrapper {

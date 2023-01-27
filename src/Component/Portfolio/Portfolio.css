@@ -5,7 +5,6 @@
       flex-direction: column;
       height: 70vh;
       padding: 0 5rem 0 5rem ;
-      margin-top: 4rem;
       
 }
 
@@ -42,6 +41,14 @@ overflow: visible !important;
      border-radius: 19px;
      
 }
+
+@media screen and (min-width: 300px) and (max-width:400px) {
+     .portfolio {
+     margin-top: 150px !important; 
+     }
+}
+
+
 @media screen and (max-width: 480px) {
 .portfolio{
      padding: 15px;
@@ -77,3 +84,10 @@ overflow: visible !important;
      }
      
      }
+
+@media screen and (min-width: 700px) and (max-width:1700px) {
+     .portfolio {
+     margin-top: -240px !important; 
+     }
+}
+
