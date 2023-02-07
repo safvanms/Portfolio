@@ -31,7 +31,7 @@ function Intro() {
         ></div>
         
         <div className="i-name">
-          <span>Hy! I Am</span>
+          <span>Hey ! This is</span>
           <span>Muhammed Safvan</span>
           <span>
             Frontend Developer with a little level of experience in web

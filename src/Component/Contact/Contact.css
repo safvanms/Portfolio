@@ -43,8 +43,9 @@
  }
 
  .btns {
-    width: 120px;
+    width: 150px;
  }
+
  
  @media screen and (min-width: 301px) and (max-width: 480px) {
     .contact-form{
