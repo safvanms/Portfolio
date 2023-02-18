@@ -61,7 +61,7 @@ function Navbar() {
               'aria-labelledby': 'basic-button',
             }}
           >
-            <div className='spread'>
+            <div className={darkMode?"dark-spread" : 'spread'}>
             <Link to='Services' smooth={true} spy={true} onClick={handleClose}>Services</Link>
             <Link to='works' smooth={true} spy={true} onClick={handleClose}>Works</Link>
             <Link to='experience' smooth={true} spy={true} onClick={handleClose}>Experiences</Link>
