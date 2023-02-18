@@ -8,13 +8,13 @@ import { themeContext } from '../../Context'
 import { useContext } from 'react'
 import Button from '@mui/material/Button'
 import Menu from '@mui/material/Menu'
-import InstagramIcon from '@mui/icons-material/Instagram';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import MenuIcon from '@mui/icons-material/Menu';
-import MenuOpenIcon from '@mui/icons-material/MenuOpen';
-
+import InstagramIcon from '@mui/icons-material/Instagram'
+import WhatsAppIcon from '@mui/icons-material/WhatsApp'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import GitHubIcon from '@mui/icons-material/GitHub'
+import MenuIcon from '@mui/icons-material/Menu'
+import MenuOpenIcon from '@mui/icons-material/MenuOpen'
+import Avatar from '../Navbar/avatar.jpeg'
 
 function Navbar() {
   const theme = useContext(themeContext)
@@ -41,16 +41,19 @@ function Navbar() {
           )}
         </div>
 
-        <div className='hamburger'>
+        <div className="hamburger">
           <Button
             id="basic-button"
             aria-controls={open ? 'basic-menu' : undefined}
             aria-haspopup="true"
             aria-expanded={open ? 'true' : undefined}
             onClick={handleClick}
-            // className={darkMode? 'white-btn' : 'dark-btn'}
           >
-            {open ?(<MenuOpenIcon className={darkMode?'white-btn':'dark-btn'}/>):(<MenuIcon className={darkMode?'white-btn':'dark-btn'}/>)}
+            {open ? (
+              <MenuOpenIcon className={darkMode ? 'white-btn' : 'dark-btn'} />
+            ) : (
+              <MenuIcon className={darkMode ? 'white-btn' : 'dark-btn'} />
+            )}
           </Button>
           <Menu
             id="basic-menu"
@@ -61,22 +64,73 @@ function Navbar() {
               'aria-labelledby': 'basic-button',
             }}
           >
-            <div className={darkMode?"dark-spread" : 'spread'}>
-            <Link to='Services' smooth={true} spy={true} onClick={handleClose}>Services</Link>
-            <Link to='works' smooth={true} spy={true} onClick={handleClose}>Works</Link>
-            <Link to='experience' smooth={true} spy={true} onClick={handleClose}>Experiences</Link>
-            <Link to='portfolio' smooth={true} spy={true} onClick={handleClose}>Portfolio</Link>
-            <Link to='contact' smooth={true} spy={true} onClick={handleClose}>Contacts</Link>
+            <div className={darkMode ? 'dark-spread' : 'spread'}>
+              <Link
+                to="Services"
+                smooth={true}
+                spy={true}
+                onClick={handleClose}
+              >
+                Services
+              </Link>
+              <Link to="works" smooth={true} spy={true} onClick={handleClose}>
+                Works
+              </Link>
+              <Link
+                to="experience"
+                smooth={true}
+                spy={true}
+                onClick={handleClose}
+              >
+                Experiences
+              </Link>
+              <Link
+                to="portfolio"
+                smooth={true}
+                spy={true}
+                onClick={handleClose}
+              >
+                Portfolio
+              </Link>
+              <Link to="contact" smooth={true} spy={true} onClick={handleClose}>
+                Contacts
+              </Link>
             </div>
+			{/* {!darkMode&&<hr/>} */}
+            <div className={darkMode ? 'profile-dark' : 'profile'}>
+			  <div className="profile-details">
+                <div>
+                  <img className="avatar" src={Avatar} alt="avatar" />
+                </div>
+                <p>muhammedsafvan1ms@gmail.com</p>
+                <p>+91 755-886-4266</p>
+              </div>
+            </div>
+			{!darkMode&&<hr/>}
             <div className="spread-icons">
-              <span><a href="https://www.instagram.com/mdsafvan1"><InstagramIcon/></a></span>
-              <span><a href="https://wa.me/917558864266"><WhatsAppIcon/></a></span>
-              <span><a href="https://www.linkedin.com/in/muhammed-safvan-p-118a83225/"><LinkedInIcon/></a></span>
-              <span><a href="https://github.com/safvanms"><GitHubIcon/></a></span>
+              <span>
+                <a href="https://www.instagram.com/mdsafvan1">
+                  <InstagramIcon />
+                </a>
+              </span>
+              <span>
+                <a href="https://wa.me/917558864266">
+                  <WhatsAppIcon />
+                </a>
+              </span>
+              <span>
+                <a href="https://www.linkedin.com/in/muhammed-safvan-p-118a83225/">
+                  <LinkedInIcon />
+                </a>
+              </span>
+              <span>
+                <a href="https://github.com/safvanms">
+                  <GitHubIcon />
+                </a>
+              </span>
             </div>
           </Menu>
         </div>
-        
       </div>
 
       <div className="n-right">

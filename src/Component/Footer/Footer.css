@@ -20,25 +20,19 @@ margin-top: 20rem;
 }
 
 
-.f-icon {
+.f-icon>a {
      display: flex;
      gap: 1.5rem;
-     
+     color: grey;
+     width: 25px;
+  height: 25px;
+  margin-top: 10px;
 }
 
-.f-btns{
-     color: gray;
-     font-size: 30px;
-}
-
-.f-btns-insta{
-               color: gray;
-               font-size: 29px;
-
-          }
 
 .footer-copyright {
      font-size: 14px;
+     margin-top: 5px;
 }
 
 @media screen and (min-width: 301px) and (max-width: 480px) {
