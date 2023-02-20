@@ -43,7 +43,7 @@ export default function Services() {
           <Card
             emoji={HeartEmoji}
             heading={'Design'}
-            detail={'Figma  Canva  Photoshop  Adobe etc '}
+            detail={'Figma  Canva  Adobe Photoshop etc '}
           />
         </motion.div>
         {/* second card */}
@@ -69,7 +69,7 @@ export default function Services() {
           <Card
             emoji={Humble}
             heading={'UI/UX'}
-            detail={'Better UI experiences with the modern patterns '}
+            detail={'Material UI and other best modern libraries '}
           />
         </motion.div>
         <div

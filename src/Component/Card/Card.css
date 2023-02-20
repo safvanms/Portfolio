@@ -33,10 +33,30 @@
   padding: 10px;
   font-size: 16px;
   color: #5290fd;
+  text-decoration: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 301px) and (max-width: 400px) {
 .card{
-  width: auto;
+  width: 14.1rem;
 }
 }
+
+@media screen and (min-width: 401px) and (max-width: 480px) {
+  .card{
+    width: 16rem;
+  }
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 600px) {
+    .card{
+      width: 12rem;
+      
+    }
+    } 
+
+    @media screen and (min-width: 601px) and (max-width: 700px) {
+      .card{
+        width: 11rem;
+      }
+      }

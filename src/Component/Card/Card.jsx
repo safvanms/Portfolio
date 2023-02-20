@@ -7,7 +7,7 @@ export default function Card({emoji , heading , detail}) {
      <img src={emoji} alt="" />
      <span>{heading}</span>
      <span>{detail}</span>
-     <button className="c-button">Learn more</button>
+     <button className="c-button"><a className='c-button' href='https://github.com/safvanms'>Learn more</a></button>
     </div>
   )
 }
