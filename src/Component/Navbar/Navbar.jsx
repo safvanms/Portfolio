@@ -13,7 +13,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import MenuIcon from '@mui/icons-material/Menu'
-import MenuOpenIcon from '@mui/icons-material/MenuOpen'
+import CloseIcon from '@mui/icons-material/Close';
 import Avatar from '../Navbar/avatar.jpeg'
 
 function Navbar() {
@@ -50,7 +50,7 @@ function Navbar() {
             onClick={handleClick}
           >
             {open ? (
-              <MenuOpenIcon className={darkMode ? 'white-btn' : 'dark-btn'} />
+              <CloseIcon className={darkMode ? 'white-btn' : 'dark-btn'} />
             ) : (
               <MenuIcon className={darkMode ? 'white-btn' : 'dark-btn'} />
             )}

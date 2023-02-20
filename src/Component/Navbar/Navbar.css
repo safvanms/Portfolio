@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-between;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
 }
 
 .n-left {
@@ -209,6 +210,10 @@ padding-top: 8px;
   height: 25px;
   border-radius: 50px;
   color: rgb(9, 4, 57);
+}
+
+.spread-icons>span>a>*:hover{
+  color: #676ab3;
 }
 
 .white-btn{
