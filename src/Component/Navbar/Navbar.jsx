@@ -20,12 +20,13 @@ function Navbar() {
   const theme = useContext(themeContext)
   const darkMode = theme.state.darkMode
 
-  // const [isOpen, setIsOpen] = useState(false)
   const [anchorEl, setAnchorEl] = useState(null)
   const open = Boolean(anchorEl)
+
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget)
   }
+
   const handleClose = () => {
     setAnchorEl(null)
   }
@@ -96,7 +97,6 @@ function Navbar() {
                 Contacts
               </Link>
             </div>
-			{/* {!darkMode&&<hr/>} */}
             <div className={darkMode ? 'profile-dark' : 'profile'}>
 			  <div className="profile-details">
                 <div>
@@ -109,22 +109,28 @@ function Navbar() {
 			{!darkMode&&<hr/>}
             <div className="spread-icons">
               <span>
-                <a href="https://www.instagram.com/mdsafvan1">
+                <a onClick={handleClose} href="https://www.instagram.com/mdsafvan1">
                   <InstagramIcon />
                 </a>
               </span>
               <span>
-                <a href="https://wa.me/917558864266">
+                <a
+                onClick={handleClose}
+				href="https://wa.me/917558864266">
                   <WhatsAppIcon />
                 </a>
               </span>
               <span>
-                <a href="https://www.linkedin.com/in/muhammed-safvan-p-118a83225/">
+                <a
+                onClick={handleClose}
+				href="https://www.linkedin.com/in/muhammed-safvan-p-118a83225/">
                   <LinkedInIcon />
                 </a>
               </span>
               <span>
-                <a href="https://github.com/safvanms">
+                <a 
+				onClick={handleClose}
+				href="https://github.com/safvanms">
                   <GitHubIcon />
                 </a>
               </span>
