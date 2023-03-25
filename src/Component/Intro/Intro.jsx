@@ -31,13 +31,14 @@ function Intro() {
         ></div>
         
         <div className="i-name">
-          <span>Hey ! This is</span>
+          <span>Hey ! this is</span>
           <span>Muhammed Safvan</span>
           <span>
-            Frontend Developer with a little level of experience in web
+            Frontend | React.js Developer with a little level of experience in web
             designing and development , producing the Quality work
           </span>
         </div>
+        
         <div className="blur i-blur1" style={{ background: '#FDF0E7' }}></div>
         <Link spy={true} to="contact" smooth={true}>
           <button className="button i-button">Hire me</button>

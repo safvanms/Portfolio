@@ -13,7 +13,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import MenuIcon from '@mui/icons-material/Menu'
-import CloseIcon from '@mui/icons-material/Close';
+import CloseIcon from '@mui/icons-material/Close'
 import Avatar from '../Navbar/avatar.jpeg'
 
 function Navbar() {
@@ -98,39 +98,40 @@ function Navbar() {
               </Link>
             </div>
             <div className={darkMode ? 'profile-dark' : 'profile'}>
-			  <div className="profile-details">
-                <div>
-                  <img className="avatar" src={Avatar} alt="avatar" />
-                </div>
-                <p>muhammedsafvan1ms@gmail.com</p>
-                <p>+91 755-886-4266</p>
+              <div className="profile-details">
+                <img className="avatar" src={Avatar} alt="avatar" />
+                <a className={darkMode?"dark-contacts":"light-contacts"} href="mailto:muhammedsafvan1ms@gmail.com">
+                  muhammedsafvan1ms@gmail.com
+                </a>
+                <a className={darkMode?"dark-contacts":"light-contacts"} 
+                 href="tel:7558864266">+91 755-886-4266</a>
               </div>
             </div>
-			{!darkMode&&<hr/>}
+            {!darkMode && <hr />}
             <div className="spread-icons">
               <span>
-                <a onClick={handleClose} href="https://www.instagram.com/mdsafvan1">
+                <a
+                  onClick={handleClose}
+                  href="https://www.instagram.com/mdsafvan1"
+                >
                   <InstagramIcon />
                 </a>
               </span>
               <span>
-                <a
-                onClick={handleClose}
-				href="https://wa.me/917558864266">
+                <a onClick={handleClose} href="https://wa.me/917558864266">
                   <WhatsAppIcon />
                 </a>
               </span>
               <span>
                 <a
-                onClick={handleClose}
-				href="https://www.linkedin.com/in/muhammed-safvan-p-118a83225/">
+                  onClick={handleClose}
+                  href="https://www.linkedin.com/in/muhammed-safvan-p-118a83225/"
+                >
                   <LinkedInIcon />
                 </a>
               </span>
               <span>
-                <a 
-				onClick={handleClose}
-				href="https://github.com/safvanms">
+                <a onClick={handleClose} href="https://github.com/safvanms">
                   <GitHubIcon />
                 </a>
               </span>

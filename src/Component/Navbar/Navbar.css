@@ -165,8 +165,6 @@
 }
 
 
-
-
 .spread>*{
   display:block;
   justify-content: center;
@@ -213,7 +211,7 @@ padding-top: 8px;
 }
 
 .spread-icons>span>a>*:hover{
-  color: #676ab3;
+  color: #336380;
 }
 
 .white-btn{
@@ -251,15 +249,26 @@ color: black;
   align-items: center;
 }
 
-.profile-details>p:nth-child(2){
-  font-size: 12px;
-  margin: 3px;
+.profile-details>a{
+  text-decoration: none;
 }
 
-.profile-details>p:nth-child(3){
-  font-size: 13px;
-  margin: 0;
+.profile-details>:nth-child(2){
+font-size: 13px;
+margin:5px;
 }
+
+.profile-details>:nth-child(3){
+  font-size: 14px;
+  }
+
+  .dark-contacts{
+    color: white;
+  }
+
+  .light-contacts{
+    color: black;
+  }
 
 .avatar{
   width: 80px;
