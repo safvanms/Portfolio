@@ -8,6 +8,7 @@ import Todo from '../../img/todo.png';
 import Pe from '../../img/pe.png';
 import CRI from '../../img/cricscorer.png';
 import FRE from '../../img/frenzy.png';
+import CI from '../../img/cricInfo.png';
 import 'swiper/css';
 
 
@@ -33,6 +34,15 @@ export default function Portfolio() {
           <img src={cucc} alt="" />
         </SwiperSlide>
         <SwiperSlide>
+          <img src={CI} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={CRI} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={FRE} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
           <img src={Apple} alt="" />
         </SwiperSlide>
         <SwiperSlide>
@@ -41,12 +51,8 @@ export default function Portfolio() {
         <SwiperSlide>
           <img src={Pe} alt="" />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={CRI} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={FRE} alt="" />
-        </SwiperSlide>
+        
+        
       </Swiper>
     </div>
   )

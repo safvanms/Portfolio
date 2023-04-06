@@ -5,6 +5,9 @@ import Css from '../../img/css.png'
 import Js from '../../img/js.png'
 import Rjs from '../../img/react.png'
 import Njs from '../../img/njs.png'
+import Redux from '../../img/redux.png'
+import MUI from '../../img/mui.png'
+import GIT from '../../img/Github--.png'
 import { motion } from "framer-motion";
 import {Link} from 'react-scroll';
 
@@ -57,6 +60,15 @@ export default function Works() {
           </div>
           <div className="w-secCircle">
             <img className='imgs' src={Css} alt="" />
+          </div>
+          <div className="w-secCircle">
+            <img className='imgs' src={Redux} alt="" />
+          </div>
+          <div className="w-secCircle">
+            <img className='imgs' src={MUI} alt="" />
+          </div>
+          <div className="w-secCircle">
+            <img className='imgs' src={GIT} alt="" />
           </div>
         </motion.div>
         {/* background circles */}

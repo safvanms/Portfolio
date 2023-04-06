@@ -16,6 +16,9 @@ import MenuIcon from '@mui/icons-material/Menu'
 import CloseIcon from '@mui/icons-material/Close'
 import Avatar from '../Navbar/avatar.jpeg'
 
+export const INITIAL_MSG = 'Hello there , I visited your Portfolio and would like to get in touch.'
+const INITIAL_SUB = 'I visited your Portfolio and would like to get in touch.'
+
 function Navbar() {
   const theme = useContext(themeContext)
   const darkMode = theme.state.darkMode
@@ -100,7 +103,7 @@ function Navbar() {
             <div className={darkMode ? 'profile-dark' : 'profile'}>
               <div className="profile-details">
                 <img className="avatar" src={Avatar} alt="avatar" />
-                <a className={darkMode?"dark-contacts":"light-contacts"} href="mailto:muhammedsafvan1ms@gmail.com">
+                <a className={darkMode?"dark-contacts":"light-contacts"} href={`mailto:muhammedsafvan1ms@gmail.com?subject=${INITIAL_SUB}&body=${INITIAL_MSG}`}>
                   muhammedsafvan1ms@gmail.com
                 </a>
                 <a className={darkMode?"dark-contacts":"light-contacts"} 
@@ -110,16 +113,16 @@ function Navbar() {
             {!darkMode && <hr />}
             <div className="spread-icons">
               <span>
+                <a onClick={handleClose} href={`https://wa.me/917558864266?text=${INITIAL_MSG}`}>
+                  <WhatsAppIcon />
+                </a>
+              </span>
+              <span>
                 <a
                   onClick={handleClose}
                   href="https://www.instagram.com/mdsafvan1"
                 >
                   <InstagramIcon />
-                </a>
-              </span>
-              <span>
-                <a onClick={handleClose} href="https://wa.me/917558864266">
-                  <WhatsAppIcon />
                 </a>
               </span>
               <span>
