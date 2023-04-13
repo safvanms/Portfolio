@@ -27,7 +27,7 @@ export default function Works() {
           Makes more Beautiful User Interfaces with React
           The most popular Library of Js.
           <br />
-          Different varieties of Styles.
+          Developing and maintaining the user interface with Material UI.
           <br />
           Implementing design on mobile websites.
           Creating tools that improve site interaction regardless of the browser.
