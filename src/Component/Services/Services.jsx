@@ -21,7 +21,7 @@ export default function Services() {
            The most popular Library of Js .
           <br />
           Using HTML, JavaScript and CSS to bring concepts to life.
-           Developing and maintaining the user interface with Material UI.
+          Developing and maintaining the user interface with Material UI.
           <br />
           Implementing design on mobile websites.
            Creating tools that improve site interaction regardless of the browser.
