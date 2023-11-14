@@ -3,7 +3,7 @@ import './Services.css'
 import HeartEmoji from '../../img/heartemoji.png'
 import Glasses from '../../img/glasses.png'
 import Humble from '../../img/humble.png'
-import CV from '../../Component/Services/cv_0109.pdf'
+import CV from '../../Component/Services/cv_1411.pdf'
 import Card from '../Card/Card'
 import { motion } from 'framer-motion'
 
