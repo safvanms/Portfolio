@@ -5,7 +5,7 @@ export default function Experience() {
   return (
     <div className="experience" id='experience'>
       <div className="achievement">
-        <div className="circle">1</div>
+        <div className="circle">2.5</div>
         <span>year</span>
         <span>Experience</span>
       </div>   
