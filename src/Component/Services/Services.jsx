@@ -3,7 +3,7 @@ import "./Services.css";
 import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
-import CV from "../Services/muhammedSafvan.pdf";
+import CV from "../../../src/Component/Services/muhammedSafvan.pdf";
 import Card from "../Card/Card";
 import { motion } from "framer-motion";
 
